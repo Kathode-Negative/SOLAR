@@ -1,0 +1,67 @@
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(C:\Users\Alexa\OneDrive\Desktop\Uni\starter-project\frontend\src\assets\images\planet-earth-background.jpg);
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.no-scrollbar {
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.text-glow {
+    text-shadow: 0 0 5px rgb(114, 173, 233), 0 0 10px rgb(114, 173, 233), 0 0 20px rgb(114, 173, 233), 0 0 30px rgb(114, 173, 233);
+}
+
+.mercury-color {
+    color: white;
+    text-shadow: 0 0 2px rgb(107 114 128), 0 0 5px rgb(107 114 128), 0 0 10px rgb(107 114 128), 0 0 30px rgb(107 114 128);
+}
+
+.venus-color {
+    color: white;
+    text-shadow: 0 0 2px rgb(245 158 11), 0 0 5px rgb(245 158 11), 0 0 10px rgb(245 158 11), 0 0 30px rgb(245 158 11);
+}
+.mars-color {
+    color: white;
+    text-shadow: 0 0 25px rgb(234 88 12), 0 0 5px rgb(234 88 12), 0 0 20px rgb(234 88 12), 0 0 60px rgb(234 88 12);
+}
+.saturn-color {
+    color: white;
+    text-shadow: 0 0 25px rgb(210, 180, 140), 0 0 5px rgb(210, 180, 140), 0 0 20px rgb(210, 180, 140), 0 0 60px rgb(210, 180, 140);
+}
+.uranus-color {
+    color: white;
+    text-shadow: 0 0 25px rgb(173, 216, 230), 0 0 5px rgb(173, 216, 230), 0 0 20px rgb(173, 216, 230), 0 0 60px rgb(173, 216, 230);
+}
+.neptune-color {
+    color: white;
+    text-shadow: 0 0 25px rgb(30, 144, 255), 0 0 5px rgb(30, 144, 255), 0 0 20px rgb(30, 144, 255), 0 0 60px rgb(30, 144, 255);
+}
+.earth-color {
+    color: white;
+    text-shadow: 0 0 25px rgb(0, 191, 255), 0 0 5px rgb(0, 191, 255), 0 0 20px rgb(50, 205, 50),  0 0 60px rgb(0, 191, 255);
+}
+.jupiter-color {
+    color: white;
+    text-shadow: 
+        0 0 25px rgb(255, 140, 0), 0 0 5px rgb(255, 140, 0),  0 0 20px rgb(139, 69, 19),  0 0 60px rgb(255, 140, 0);
+}

@@ -1,14 +1,14 @@
-import { Route, Routes } from 'react-router-dom';
-import Menubar from './components/UI/Menubar';
-import { Auth } from './components/Utility/Auth';
-import Favorites from './views/Favorites';
-import History from './views/History';
-import Home from './views/Home';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import Register from './views/Register';
 import Login from './views/Login';
 import Logout from './views/Logout';
-import MyRoute from './views/MyRoute';
+import Home from './views/Home';
+import Menubar from './components/UI/Menubar';
 import Profile from './views/Profile';
-import Register from './views/Register';
+import MyRoute from './views/MyRoute';
+import History from './views/History';
+import Favorites from './views/Favorites';
+import { Auth } from './components/Utility/Auth';
 
 const App = () => {
 
@@ -23,7 +23,7 @@ const App = () => {
             <Route path="/logout" element={<Logout/>}/>
             <Route path="/register" element={<Register/>}/>
             <Route path="/profile" element={<Auth elements = {<Profile/>}/>}/>
-            <Route path="/myroute" element={<Auth elements = {<MyRoute/>}/>}/>
+            <Route path="/myroute" element={<MyRoute/>}/>
             <Route path="/history" element={<Auth elements = {<History/>}/>}/>
             <Route path="/favorites" element={<Auth elements = {<Favorites/>}/>}/>
           </Routes>

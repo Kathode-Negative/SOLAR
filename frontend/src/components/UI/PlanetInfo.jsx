@@ -1,6 +1,7 @@
+import React from "react"
 import { useNavigate } from "react-router-dom";
-import "./../../assets/styles/GUI.css";
-import "./../../assets/styles/fonts.css";
+import "./../../assets/styles/GUI.css"
+import "./../../assets/styles/fonts.css"
 
 
 const PlanetInfo = ({image,imageName,title,titleStyle,body,bodyStyle,buttonStyle}) =>{
@@ -20,7 +21,11 @@ const PlanetInfo = ({image,imageName,title,titleStyle,body,bodyStyle,buttonStyle
         <button
           onClick={() => navigate("/myroute")}
           className={buttonStyle ? buttonStyle : "general-button roboto-bold-italic"}
-          
+          style={{
+            padding: '0.5rem 1.5rem',
+            borderRadius: '1rem',
+            whiteSpace: 'nowrap',
+          }}
         >Book now</button>
 
       </div>
